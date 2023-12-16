@@ -7,6 +7,9 @@ body {
     font-family: 'Roboto Mono', monospace;
     overflow-x: hidden;
 }
+p{
+    font-size: 1.2rem;
+}
 /* Nav */
 nav {
     display: flex;
@@ -30,7 +33,7 @@ nav {
     color: black;
     padding: 3px; 
 }
-a:hover {
+.primary-navigation a:hover {
     background-color: black;
     color:white;
     border-radius: 5px;
@@ -97,9 +100,10 @@ a:hover {
 /* PCT section */
 .pct-section{
     display: flex;
-    margin: 2rem;
+    padding: 2rem;
     gap: 1rem;
     flex-wrap: wrap;
+    background-color: #E9E9E9;
 }
 .img-container{
     flex: 1 1 400px;
@@ -115,16 +119,20 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    flex: 1 0 350px;
+    flex: 1 1 350px;
+}
+.pct-section-text h2{
+    font-size: 2.5rem;
+    text-align: center;
 }
 .pct-section-text p{
-    margin: 20px 40px;
-    font-size: 1.1rem
+    margin: 20px auto;
+    /* font-size: 1.1rem */
 }
-.pct-section-button:hover {
+.brutalist-button:hover {
     background-color: #D7D4D4;
 }
-.pct-section-button{
+.brutalist-button{
 margin: 0 5px;
 background: #fff;
 font-size: 18px;
@@ -133,8 +141,57 @@ border-radius: 6px;
 border: 3px solid #000;
 box-shadow: 5px 5px 0px 0px #000;
 cursor: pointer;
+max-width: 200px;
 }
 .pct-section-button:active{
     transform: translateY(4px);
      box-shadow: 1px 2px 0px 0px #000;
   }
+/* Other Adventures */
+.other-adventures-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.other-adventures-text{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.other-adventures-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+.other-adventures-img div{
+    background-color: #E9E9E9;
+    padding: 20px;
+    max-width: 600px;
+    flex: 1 1 400px;
+}
+.other-adventures-img img{
+    width: 100%;
+    height: auto;
+}
+.other-adventure-button{
+    margin-bottom: 30px;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* height: 30vh; */
+}
+.footer-navigation *{
+    list-style-type: none;
+    color: white;
+}
