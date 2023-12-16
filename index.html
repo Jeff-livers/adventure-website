@@ -2,13 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Jeff's Adventures</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="nav.js" defer></script>
+    <script src="popup.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Jeff's Adventures</h1>
-        <p>We're working on something exciting! Stay tuned for updates.</p>
+    <!-- delete when website is ready -->
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-content">
+          <p>Welcome to the website! it's not ready and none of the links work. glad you're looking at it though!</p>
+          <button onclick="closePopup()">Close</button>
+        </div>
     </div>
+    <!-- delete -->
+    <nav>
+        <div>
+            <img class="logo" src="images/Frame_16.png" alt="jeff's adventures logo">
+        </div> 
+        <button class ="mobile-nav-toggle" aria-expanded="false"></button>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li class ="active">
+                <a href="#">Home</a>
+            <li>
+                <a href="#">Adventures</a>
+            <li>
+                <a href="#">About</a>
+            <li>
+                <a href="#">Contact</a>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Jeff's Adventures</h1>
+            <p>Let's see where these ramblings take me</p>
+        </div>
+    </section>
+    <section class="pct-section">
+        <div class="pct-section-text">
+            <h2>Pacific Crest Trail</h2>
+            <p>In 2023 I hiked the pacific crest trail. I have lots of stories and photos to share from hiking from mexico to (almost) canada in 5 months. Check out my page for my photo gallery, gear list, and my writing about the trail. </p>
+            <button class="brutalist-button">PCT Page</button>
+        </div>
+        <div class="img-container">
+            <img src="images/IMG_5088.png" alt="Jeff standing on mountain in oregon">
+        </div>
+    </section>
+    <section class="other-adventures-section">
+        <div class="other-adventures-text">
+            <h2>Other Adventures</h2>
+            <p>While the PCT may be the highlight, the adventures certainly don't end quite there. Check out many of my other adventures including Guatemala, Rock climbing trips, and other backpacking excursions</p>
+        </div>
+        <div class="other-adventures-img">
+            <div>
+                <img src="images/lake_atitlan.jpg" alt="lake atitlan">
+                <h3>Lake Atitlan, Guatemala</h3>
+            </div>
+            <div>
+                <img src="images/san_gorgonio.JPG" alt="san gorgoinio">
+                <h3>Mount San gorgoinio</h3>
+            </div>
+            <div> 
+                <img src="images/yosemite_valley.jpg" alt="yosemite valley">
+                <h3>Yosemite Valley</h3>
+            </div> 
+        </div>
+        <button class="brutalist-button other-adventure-button">Other Adventures</button>
+    </section>
+    <!-- <section>
+        <h2>My Writing</h2>
+        <div>
+            <div>
+                <img src="#" alt="">
+                <h3>Title</h3>
+            </div>
+            <div>
+                <img src="#" alt="">
+                <h3>Title</h3>
+            </div>
+            <div>
+                <img src="#" alt="">
+                <h3>Title</h3>
+            </div>
+        </div>
+    </section> -->
+    <footer>
+        <img class="logo" src="images/logo_inverted.png" alt="jeff's adventures logo">
+        <form action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <ul class="footer-navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Adventures</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
 </body>
+</html>
