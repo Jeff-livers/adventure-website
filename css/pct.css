@@ -1,0 +1,9 @@
+.gallery-section{
+    display:flex;
+}
+.gallery-img img{
+    background-size: cover;
+    width: 20em;
+    height: auto;
+}
+/*  */
