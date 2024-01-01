@@ -1,9 +1,52 @@
+/* Gallery Section */
 .gallery-section{
-    display:flex;
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: #E9E9E9;
 }
 .gallery-img img{
     background-size: cover;
-    width: 20em;
+    max-width: 100%;
     height: auto;
 }
-/*  */
+.gallery-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 350px;
+}
+.gallery-img{
+    flex: 1 1 400px;
+}
+/* Writing Section */
+.writings-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.writings-text{
+    max-width: 600px;
+    margin: 3em auto;
+    text-align: center;
+}
+.writings-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+.writings-item{
+    background-color: #E9E9E9;
+    padding: 20px;
+    max-width: 600px;
+    flex: 1 1 400px;
+    text-align: center;
+}
+.writings-item img{
+    width: 100%;
+    height: auto;
+}
