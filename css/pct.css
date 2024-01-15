@@ -1,0 +1,109 @@
+.pct-hero{
+    background-image: url(../images/splinter-in-oregon.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Gallery Section */
+.gallery-section{
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.gallery-img img{
+    background-size:cover;
+    max-width: 100%;
+    height: auto;
+}
+.gallery-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 350px;
+}
+.gallery-img{
+    flex: 1 1 400px;
+}
+/* Writing Section */
+.writings-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    background-color: #E9E9E9;
+}
+.writings-text{
+    max-width: 600px;
+    text-align: center;
+}
+.writings-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+.writings-item{
+    background-color: #E9E9E9;
+    padding: 20px;
+    max-width: 600px;
+    flex: 1 1 400px;
+    text-align: center;
+}
+.writings-item img{
+    width: 100%;
+    height: auto;
+}
+.gear-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+}
+.gear-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin: 20px;
+}
+.gear-item{
+    background-color: #E9E9E9;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    flex: 1 1 200px;
+    margin: 20px;
+}
+.gear-item img{
+    width: 100%;
+    height: auto;
+}
+.gear-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 5em;
+}
+.tree-section{
+    flex-direction: column;
+    background-color: #b5e4f7;
+}
+.tree-text{
+    flex-direction: column;
+    max-width: 1000px;
+    gap: 20px;
+
+}
+.tree-section img{
+    margin-top: auto;
+    width: 100vw;
+}
