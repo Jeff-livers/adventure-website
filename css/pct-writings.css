@@ -1,0 +1,43 @@
+.pct-hero{
+    background-image: url(../images/oregon-lookout.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 20px;
+}
+.card {
+    background-color: #E9E9E9;
+    padding: 20px;
+    max-width: 600px;
+    flex: 1 1 400px;
+    text-align: center;
+  }
+.card img{
+    width: 100%;
+    height: auto;
+}
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
