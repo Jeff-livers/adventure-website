@@ -212,3 +212,17 @@ footer{
     list-style-type: none;
     color: white;
 }
+.subscribe-button{
+    margin: 0 5px;
+    background: #000000;
+    color: #fff;
+    font-size: 1em;
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.subscribe-button:hover{
+    color: black;
+    background-color: white;
+}

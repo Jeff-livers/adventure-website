@@ -1,13 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCT Trees</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="nav.js" defer></script>
+    <script src="popup.js"></script>
 </head>
 <body>
+    <!-- delete when website is ready -->
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-content">
+          <p>Welcome to the website! it's not ready and none of the links work. glad you're looking at it though!</p>
+          <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <!-- delete -->
     <nav>
         <div>
             <a href="index.html">
@@ -19,14 +33,14 @@
             <li class ="active">
                 <a href="index.html">Home</a>
             <li>
-                <a href="#">Adventures</a>
+                <a href="coming-soon.html">Adventures</a>
             <li>
-                <a href="#">About</a>
+                <a href="coming-soon.html">About</a>
             <li>
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
         </ul>
     </nav>
-    <footer>
+       <footer>
         <img class="logo" src="images/logo_inverted.png" alt="jeff's adventures logo">
         <form target="_blank" action="https://formsubmit.co/043ef3026fab4a1441a22f5be3631400" method="POST">
             <label for="email" >Email:</label>
@@ -37,8 +51,11 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="coming-soon.html">Adventures</a></li>
             <li><a href="coming-soon.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="coming-soon.html">Contact</a></li>
         </ul>
     </footer>
+
 </body>
 </html>
+
+
