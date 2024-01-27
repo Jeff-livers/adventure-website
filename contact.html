@@ -1,11 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCT Trees</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="nav.js" defer></script>
+    <script src="popup.js"></script>
 </head>
 <body>
     <nav>
@@ -19,13 +25,25 @@
             <li class ="active">
                 <a href="index.html">Home</a>
             <li>
-                <a href="#">Adventures</a>
+                <a href="coming-soon.html">Adventures</a>
             <li>
-                <a href="#">About</a>
+                <a href="coming-soon.html">About</a>
             <li>
-                <a href="#">Contact</a>
+                <a href="coming-soon.html">Contact</a>
         </ul>
     </nav>
+    <section class="main">
+        <div>
+            <h1>Contact</h1>
+            <p>Thanks for stopping by! Feel free to reach out.</p>
+            <form target="_blank" action="https://formsubmit.co/043ef3026fab4a1441a22f5be3631400" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+                <button type="submit" class="brutalist-button">Submit Form</button>
+            </form>
+        </div>
+    </section>
     <footer>
         <img class="logo" src="images/logo_inverted.png" alt="jeff's adventures logo">
         <form target="_blank" action="https://formsubmit.co/043ef3026fab4a1441a22f5be3631400" method="POST">
